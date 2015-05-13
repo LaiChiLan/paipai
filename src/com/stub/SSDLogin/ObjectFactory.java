@@ -1,4 +1,4 @@
-package com.SSDLogin;
+package com.stub.SSDLogin;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;

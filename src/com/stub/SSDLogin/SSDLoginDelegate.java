@@ -1,4 +1,4 @@
-package com.SSDLogin;
+package com.stub.SSDLogin;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

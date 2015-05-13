@@ -1,4 +1,4 @@
-package com.SSDLogin;
+package com.stub.SSDLogin;
 
 import javax.xml.ws.WebFault;
 
@@ -14,14 +14,14 @@ public class Exception_Exception extends java.lang.Exception {
 	 * Java type that goes as soapenv:Fault detail element.
 	 * 
 	 */
-	private com.SSDLogin.Exception faultInfo;
+	private com.stub.SSDLogin.Exception faultInfo;
 
 	/**
 	 * 
 	 * @param message
 	 * @param faultInfo
 	 */
-	public Exception_Exception(String message, com.SSDLogin.Exception faultInfo) {
+	public Exception_Exception(String message, com.stub.SSDLogin.Exception faultInfo) {
 		super(message);
 		this.faultInfo = faultInfo;
 	}
@@ -33,7 +33,7 @@ public class Exception_Exception extends java.lang.Exception {
 	 * @param cause
 	 */
 	public Exception_Exception(String message,
-			com.SSDLogin.Exception faultInfo, Throwable cause) {
+			com.stub.SSDLogin.Exception faultInfo, Throwable cause) {
 		super(message, cause);
 		this.faultInfo = faultInfo;
 	}
@@ -42,7 +42,7 @@ public class Exception_Exception extends java.lang.Exception {
 	 * 
 	 * @return returns fault bean: com.SSDLogin.Exception
 	 */
-	public com.SSDLogin.Exception getFaultInfo() {
+	public com.stub.SSDLogin.Exception getFaultInfo() {
 		return faultInfo;
 	}
 

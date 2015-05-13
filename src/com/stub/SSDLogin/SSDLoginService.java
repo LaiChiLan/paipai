@@ -1,4 +1,4 @@
-package com.SSDLogin;
+package com.stub.SSDLogin;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -28,13 +28,13 @@ public class SSDLoginService extends Service {
 
 	private final static URL SSDLOGINSERVICE_WSDL_LOCATION;
 	private final static Logger logger = Logger
-			.getLogger(com.SSDLogin.SSDLoginService.class.getName());
+			.getLogger(com.stub.SSDLogin.SSDLoginService.class.getName());
 
 	static {
 		URL url = null;
 		try {
 			URL baseUrl;
-			baseUrl = com.SSDLogin.SSDLoginService.class.getResource(".");
+			baseUrl = com.stub.SSDLogin.SSDLoginService.class.getResource(".");
 			url = new URL(baseUrl,
 					"http://192.168.10.27:8088/SSDLogin/SSDLoginPort?wsdl");
 		} catch (MalformedURLException e) {

@@ -32,4 +32,10 @@
         </property> 
     </bean>
   
+    <mvc:interceptors>
+	    <mvc:interceptor>
+		<mvc:mapping path="/*.*"/>
+		    <bean class="com.pai.util.LoginInterceptor" />
+	    </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
